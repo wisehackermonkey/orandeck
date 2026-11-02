@@ -4,7 +4,7 @@
     "module": "ESNext",
     "jsx": "react-jsx",
     "outDir": "dist",
-    "rootDir": ".",
+    "rootDir": "src",
     "baseUrl": ".",
     "strict": true,
     "esModuleInterop": true,
@@ -14,18 +14,9 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "types": [
-      "tscircuit"
-    ]
+    "types": ["tscircuit", "node"],
+    "allowJs": true
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".claude"
-  ]
-}
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", ".claude"]
+}   

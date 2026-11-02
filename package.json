@@ -18,9 +18,18 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@tscircuit/infer-cable-insertion-point": "^0.0.5",
     "@types/react": "^19.3.0",
+    "calculate-elbow": "^0.0.13",
+    "three": "^0.187.0",
     "tscircuit": "^0.0.3048",
     "typescript": "^5.0.0"
   },
-  "author": "oran"
+  "author": "oran",
+  "dependencies": {
+    "@tsci/seveibar.red-led": "^0.1.1",
+    "@tsci/seveibar.reg-5v-to-3v-C2837407": "^0.1.0",
+    "@tsci/seveibar.smd-usb-c": "^0.0.2",
+    "@tscircuit/core": "^0.0.2247"
+  }
 }
